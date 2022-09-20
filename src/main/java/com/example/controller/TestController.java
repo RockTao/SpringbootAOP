@@ -16,6 +16,7 @@ public class TestController {
 	@TestAnnotation("111111111111111111ss")   // 加上测试注解
 	public String aop(){
 		System.out.println("2222222222");
+
 		return "2222222222";
 	}
 }
